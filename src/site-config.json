@@ -1,0 +1,552 @@
+{
+  "business": {
+    "name": "Onyx Pest Control",
+    "phone": "555-pes-r93",
+    "category": "pest-control",
+    "city": "Tampa",
+    "state": "FL"
+  },
+  "design": {
+    "preset": {
+      "id": "pest-control-dark-premium",
+      "categoryGroup": "pest-control",
+      "name": "Dark Premium",
+      "recipeFile": "pest-control/dark-premium.astro",
+      "colors": {
+        "primary": "#4ADE80",
+        "primaryDark": "#3bb266",
+        "primaryLight": "#b7f2cc",
+        "secondary": "#2A2A2A",
+        "accent": "#65e393",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "pest-control/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Onyx Pest Control: Tampa Bay's Trusted Exterminators",
+      "heroSubline": "Locally owned pest solutions since 2012. Serving Tampa Bay homes with same-day emergency service available for active infestations.",
+      "aboutTitle": "Why Tampa Chooses Onyx",
+      "aboutText": [
+        "Founded by Tampa native James Wilson after seeing how subtropical pests damage our historic bungalows and waterfront properties.",
+        "We use environmentally responsible methods adapted for Florida's humid climate, from termite-resistant treatments for old wood floors to salt-air approved materials for coastal homes.",
+        "Proud supporters of Tampa PAL youth programs and annual sponsors of Gasparilla Festival cleanup crews."
+      ],
+      "valueProps": [
+        {
+          "title": "24/7 Urgent Response",
+          "description": "Same-day service for swarming termites or palmetto bug invasions common after heavy rains"
+        },
+        {
+          "title": "Florida-Smart Treatments",
+          "description": "Specialized protocols for humidity-loving pests in attic spaces and crawl areas"
+        },
+        {
+          "title": "Historic Home Experts",
+          "description": "Gentle yet effective methods for Seminole Heights' 1920s craftsman homes"
+        },
+        {
+          "title": "Free Re-Treatments",
+          "description": "If pests return between quarterly services, we'll handle it at no cost"
+        }
+      ],
+      "ctaHeadline": "Schedule Your Free Inspection Today",
+      "ctaSubline": "Call or text 555-PES-T93 for immediate assistance with ants, rodents, or termites in your Tampa home."
+    },
+    "services": [
+      {
+        "slug": "termite-control",
+        "name": "Termite Control",
+        "shortDescription": "Advanced protection for Tampa's older homes against destructive subterranean and drywood termites.",
+        "description": "Florida's humid climate creates ideal conditions for termites to silently destroy historic bungalow floor joists and waterfront property foundations. Our Tampa-trained technicians use moisture meters to identify high-risk areas in your crawl spaces before applying time-released treatments.\n\nFor pre-1950s homes in Hyde Park or Ybor City, we recommend our non-invasive borate wood treatment that penetrates deep into structural beams without damaging original finishes. Newer suburban homes in Westchase benefit from our perimeter trenching system that creates a protective barrier against swarming termites after summer rains.\n\nIncludes 10-year renewable warranty with annual inspections. Emergency service available when winged termites suddenly appear after thunderstorms.",
+        "process": [
+          "Step 1: Thermal imaging inspection of walls/floors",
+          "Step 2: Targeted drilling for direct wood treatment (only where absolutely needed)",
+          "Step 3: Soil injection around foundation perimeter",
+          "Step 4: Quarterly monitoring stations installed"
+        ],
+        "benefits": [
+          "Protects vulnerable pier-and-beam foundations",
+          "Safe for homes near Tampa Bay's sensitive estuaries",
+          "Custom solutions for historic district requirements",
+          "Prevents costly structural damage"
+        ],
+        "faq": [
+          {
+            "question": "How often should Tampa homes be inspected for termites?",
+            "answer": "Annually for most properties, but every 6 months for older homes near water or with previous infestations. Summer humidity accelerates colony growth."
+          },
+          {
+            "question": "Will treatment disrupt my daily routine?",
+            "answer": "Most treatments take 2-3 hours with minimal movement of furniture. We avoid disrupting original hardwood floors in historic homes."
+          },
+          {
+            "question": "Are your chemicals safe for pets?",
+            "answer": "We use pet-friendly products that dry within 2 hours. For homes with birds or reptiles, we offer completely organic alternatives."
+          }
+        ]
+      },
+      {
+        "slug": "rodent-exclusion",
+        "name": "Rodent Exclusion",
+        "shortDescription": "Complete rat and mouse proofing for Tampa Bay area homes.",
+        "description": "From rats nesting in palm tree crowns to mice sneaking through old fireplace flues in Seminole Heights bungalows, we seal entry points with heavy-duty materials that withstand Florida's storms. Our process begins with a thorough inspection of your attic, roof lines, and foundation - common entry points after hurricanes displace rodent populations.\n\nFor 1920s craftsman homes, we use copper mesh and steel wool that blends with original architecture while preventing gnawing. Newer suburban homes receive complete perimeter sealing with corrosion-resistant materials ideal for salty Gulf breezes in South Tampa.\n\nIncludes follow-up visits during winter months when rodents seek warmth in garages and pool enclosures. Humane live traps available upon request for wildlife concerns.",
+        "process": [
+          "Step 1: Nighttime activity assessment with infrared cameras",
+          "Step 2: Identification of all entry points larger than 1/4 inch",
+          "Step 3: Custom sealing of gaps with rodent-proof materials",
+          "Step 4: Attic decontamination if needed"
+        ],
+        "benefits": [
+          "Prevents electrical fires from chewed wiring",
+          "Reduces risk of leptospirosis in flood-prone areas",
+          "Storm-resistant materials won't degrade in rain",
+          "Humane solutions that comply with FL wildlife laws"
+        ],
+        "faq": [
+          {
+            "question": "How do hurricanes affect rodent problems?",
+            "answer": "Storm surges force rats inland - we see 300% more calls after major storms. Our preventions help keep them out when waters rise."
+          },
+          {
+            "question": "Do you handle roof rats in palm trees?",
+            "answer": "Yes, we install protective trunk guards and trim overhanging branches that provide access to your roof."
+          },
+          {
+            "question": "Will sealing make my house too airtight?",
+            "answer": "We maintain proper ventilation while blocking pests - crucial for Florida's humid climate to prevent mold."
+          }
+        ]
+      },
+      {
+        "slug": "mosquito-misting",
+        "name": "Mosquito Misting",
+        "shortDescription": "Outdoor protection from disease-carrying mosquitoes in Tampa's humid climate.",
+        "description": "Our automated misting systems create a protective barrier around your pool cage or lanai - areas where Tampa families spend evenings but battle relentless mosquitoes. The system releases micro-doses of EPA-approved formulas at dawn/dusk when mosquitoes are most active near standing water.\n\nCustomizable for different property types: historic home gardens in Hyde Park require discreet installation that preserves landscape aesthetics, while larger estates on Tampa's canals benefit from our commercial-grade systems that cover waterfront exposures.\n\nIncludes free seasonal adjustments - we increase frequency during rainy season (June-October) and add extra protection before outdoor parties. All nozzles are salt-air resistant for coastal properties.",
+        "process": [
+          "Step 1: Property mapping of mosquito hotspots",
+          "Step 2: Strategic nozzle placement planning",
+          "Step 3: Installation of weatherproof control unit",
+          "Step 4: Monthly refills and system checks"
+        ],
+        "benefits": [
+          "Reduces risk of Zika and West Nile virus",
+          "Allows safe outdoor living year-round",
+          "Nozzles hidden in landscaping",
+          "Smart timer saves product during windy days"
+        ],
+        "faq": [
+          {
+            "question": "How does this differ from regular spraying?",
+            "answer": "Misting provides continuous protection rather than temporary relief. The micro-dosing is more effective and uses less chemical overall."
+          },
+          {
+            "question": "Will it harm my butterfly garden?",
+            "answer": "We adjust formulas and timing to protect pollinators - treatments occur when butterflies are least active."
+          },
+          {
+            "question": "What about after heavy rains?",
+            "answer": "Systems automatically increase frequency for 48 hours post-storm when mosquito breeding spikes."
+          }
+        ]
+      },
+      {
+        "slug": "bed-bug-treatment",
+        "name": "Bed Bug Treatment",
+        "shortDescription": "Discreet and thorough elimination for Tampa hotels and residences.",
+        "description": "Bed bugs thrive in Tampa's tourist areas, hitching rides from cruise ships and vacation rentals. Our heat treatment method reaches 135°F - hot enough to kill all life stages without chemicals that can damage antique furniture in historic apartments.\n\nFor high-rise condos along Bayshore Boulevard, we use canine inspections to pinpoint infestations before they spread through shared walls. Budget-conscious solutions available for student housing near USF that prevent reinfestation between semesters.\n\nIncludes two follow-up visits and complimentary suitcase heat treatments for frequent travelers. Hotel partnerships receive discounted quarterly preventative services.",
+        "process": [
+          "Step 1: K-9 inspection or visual assessment",
+          "Step 2: Targeted heat treatment (6-8 hours)",
+          "Step 3: Residual barrier application",
+          "Step 4: Follow-up monitoring"
+        ],
+        "benefits": [
+          "No need to discard furniture",
+          "Effective in multi-unit buildings",
+          "No chemical odors",
+          "Complete eradication guaranteed"
+        ],
+        "faq": [
+          {
+            "question": "How do I prepare for heat treatment?",
+            "answer": "Remove heat-sensitive items like candles and medications. We handle moving furniture to optimal positions."
+          },
+          {
+            "question": "Are your methods safe for elderly residents?",
+            "answer": "Absolutely - we coordinate with caregivers to ensure comfort during the process."
+          },
+          {
+            "question": "Will neighbors know we had bed bugs?",
+            "answer": "Our unmarked vehicles and discreet protocols maintain your privacy."
+          }
+        ]
+      },
+      {
+        "slug": "palmetto-bug-control",
+        "name": "Palmetto Bug Control",
+        "shortDescription": "Solutions for Florida's notorious giant roaches in Tampa homes.",
+        "description": "Palmetto bugs invade through plumbing penetrations and attic vents, especially during Tampa's humid summers. Our interior/exterior treatment focuses on their preferred harborage areas: dark moist spaces under sinks, around AC units, and in pool equipment rooms.\n\nFor historic district homes with original plumbing, we use gel baits in wall voids rather than disruptive drilling. Modern condos receive targeted applications along elevator shafts and garbage chutes - common entry points in high-rises.\n\nIncludes emergency call-outs when sudden infestations occur after tropical storms. Our natural repellent options help keep them away from outdoor dining areas without harming Tampa's ecosystem.",
+        "process": [
+          "Step 1: Identification of entry points and harborage",
+          "Step 2: Application of growth regulator to prevent reproduction",
+          "Step 3: Strategic bait placement in wall voids",
+          "Step 4: Exclusion work on plumbing penetrations"
+        ],
+        "benefits": [
+          "Reduces health risks from allergens",
+          "Prevents contamination of kitchen areas",
+          "Long-lasting residual protection",
+          "Discreet treatments maintain home aesthetics"
+        ],
+        "faq": [
+          {
+            "question": "Why do I suddenly have palmetto bugs?",
+            "answer": "They often appear after heavy rains flood their outdoor nests. Our treatments create a protective barrier before storm season."
+          },
+          {
+            "question": "Are the giant ones dangerous?",
+            "answer": "While not venomous, they carry bacteria and trigger allergies. Their shed skin particles worsen asthma symptoms."
+          },
+          {
+            "question": "Will fogging get rid of them?",
+            "answer": "Fogging only kills visible bugs - we target the nests and entry points for complete control."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marta R.",
+        "rating": 5,
+        "service": "Termite Control",
+        "text": "Saved our 1936 bungalow in Seminole Heights from extensive termite damage. James found active mud tubes behind original baseboards that 2 other companies missed. Their borate treatment preserved the heart pine floors we just refinished.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Darrell W.",
+        "rating": 5,
+        "service": "Rodent Exclusion",
+        "text": "After Hurricane Idalia, rats were getting into our South Tampa garage through the old laundry chute. Onyx sealed every possible entry with materials that blend perfectly with our historic home's exterior. No more midnight scratching noises!",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Sophia K.",
+        "rating": 5,
+        "service": "Mosquito Misting",
+        "text": "The misting system around our pool cage has been life-changing. Our kids can finally play outside in the evenings without being eaten alive. Technician adjusted the nozzles to account for our canal location - much fewer mosquitoes this rainy season.",
+        "date": "2025-04-05"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Bed Bug Treatment",
+        "text": "Discovered bed bugs after a cruise from Port Tampa Bay. Onyx's heat treatment eradicated them in one day without having to throw out our mattress. Appreciated their discreet service - our downtown condo neighbors never knew.",
+        "date": "2025-02-18"
+      },
+      {
+        "name": "Lisa T.",
+        "rating": 5,
+        "service": "Palmetto Bug Control",
+        "text": "Living near Bayshore meant constant palmetto bugs in our kitchen. The quarterly treatments have reduced sightings by 90%. They even found nests in our outdoor shower we didn't know about. Worth every penny for peace of mind.",
+        "date": "2025-03-30"
+      },
+      {
+        "name": "Greg B.",
+        "rating": 5,
+        "service": "Termite Control",
+        "text": "As a property manager for several old homes in Ybor City, I trust Onyx for all our pest control. They understand the unique challenges of historic buildings and work around our tight tenant schedules. Their 10-year warranty gives owners real protection.",
+        "date": "2025-04-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Tampa Pest Control | Onyx Exterminators | Free Inspections",
+        "description": "Local pest control experts serving Tampa Bay since 2012. Same-day emergency service for termites, rodents, and palmetto bugs. Free inspections."
+      },
+      "about": {
+        "title": "About Onyx Pest Control | Tampa's Local Exterminators",
+        "description": "Meet Tampa's trusted pest control company specializing in historic homes and Florida's humid climate challenges. Learn our story and methods."
+      },
+      "services": {
+        "title": "Tampa Pest Control Services | Onyx Treatment Options",
+        "description": "Complete pest solutions for Tampa homes: termite control, rodent proofing, mosquito misting systems, and bed bug heat treatments."
+      },
+      "contact": {
+        "title": "Contact Onyx Pest Control | Tampa Bay Area",
+        "description": "Schedule your free pest inspection today. Serving all Tampa neighborhoods with 24/7 emergency service available."
+      },
+      "reviews": {
+        "title": "Onyx Pest Control Reviews | Tampa Customer Stories",
+        "description": "See why Tampa Bay homeowners trust Onyx for pest control in historic districts and waterfront properties. Real customer experiences."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "St. Petersburg",
+        "slug": "st-petersburg-fl",
+        "state": "FL",
+        "content": "Onyx Pest Control provides expert pest management services for the historic homes of St. Petersburg, FL. Our team is well-versed in treating common pests like termites, roaches, and rodents that thrive in the humid climate of the Tampa Bay area. We use environmentally friendly methods to protect your 1920s-50s Florida cottage home while ensuring effective pest elimination.\n\nSt. Petersburg's unique architecture and lush landscapes require specialized pest control solutions. Whether you're dealing with palmetto bugs, ants, or mosquitoes, our tailored treatments address the specific needs of your property. We also offer preventative services to keep your home pest-free year-round in this hot, humid climate.",
+        "localContext": "St. Petersburg is known for its historic Florida cottage homes and vibrant arts scene, with a climate that fosters rapid pest reproduction.",
+        "nearbyAreas": [
+          "Tampa",
+          "Clearwater",
+          "Largo"
+        ]
+      },
+      {
+        "city": "Clearwater",
+        "slug": "clearwater-fl",
+        "state": "FL",
+        "content": "Serving Clearwater's ranch-style homes, Onyx Pest Control delivers comprehensive pest solutions for this coastal community. Our technicians understand how the salty air and humidity create ideal conditions for pests like silverfish, spiders, and termites in 1960s-70s properties. We offer specialized treatments for beachside properties that face unique pest challenges.\n\nFrom barrier treatments to interior pest proofing, we protect Clearwater homes against the area's most persistent invaders. Our seasonal maintenance plans are particularly valuable in this climate where pests remain active throughout the year.",
+        "localContext": "Clearwater's ranch-style homes and proximity to the Gulf create specific pest control needs in this popular beach destination.",
+        "nearbyAreas": [
+          "Dunedin",
+          "Safety Harbor",
+          "Belleair"
+        ]
+      },
+      {
+        "city": "Brandon",
+        "slug": "brandon-fl",
+        "state": "FL",
+        "content": "Onyx Pest Control specializes in protecting Brandon's suburban developments from Florida's most common pests. Our team is experienced with the pest challenges of 1980s-90s homes, including foundation pests, lawn insects, and household invaders that thrive in the humid climate. We provide customized solutions for Brandon's family neighborhoods.\n\nWith our thorough inspections and targeted treatments, we address everything from fire ants in your yard to pantry pests in your kitchen. Our prevention-focused approach helps maintain pest-free homes in Brandon's hot, humid environment.",
+        "localContext": "Brandon's suburban developments and family-oriented communities require pest control that's safe for children and pets.",
+        "nearbyAreas": [
+          "Valrico",
+          "Riverview",
+          "Seffner"
+        ]
+      },
+      {
+        "city": "Wesley Chapel",
+        "slug": "wesley-chapel-fl",
+        "state": "FL",
+        "content": "Onyx Pest Control offers modern pest solutions for Wesley Chapel's master-planned communities. Our services are designed for newer 2000s-2020s homes, addressing construction-specific pest vulnerabilities while maintaining the aesthetic standards of these beautiful neighborhoods. We specialize in treating the pests that plague new developments in Florida's humid climate.\n\nFrom perimeter barriers to eco-friendly interior treatments, we protect Wesley Chapel homes against termites, ants, and other common invaders. Our discreet service approach fits perfectly with the community's upscale atmosphere.",
+        "localContext": "Wesley Chapel's newer communities demand pest control that preserves property values while effectively managing Florida's persistent pests.",
+        "nearbyAreas": [
+          "Land O' Lakes",
+          "Lutz",
+          "Zephyrhills"
+        ]
+      },
+      {
+        "city": "Tampa",
+        "slug": "tampa-fl",
+        "state": "FL",
+        "content": "Onyx Pest Control provides comprehensive pest management for Tampa's diverse neighborhoods. From historic Ybor City to modern high-rises, we tailor our services to each property's unique needs in this humid urban environment. Our technicians are experts in handling the pest pressures of Florida's third-largest city.\n\nWe address Tampa's specific challenges including urban rodents, tropical pests, and seasonal invaders with customized treatment plans. Our commercial services also protect Tampa businesses from pest-related health code violations.",
+        "localContext": "Tampa's mix of urban and residential areas creates varied pest control needs across different neighborhoods.",
+        "nearbyAreas": [
+          "St. Petersburg",
+          "Clearwater",
+          "Brandon"
+        ]
+      },
+      {
+        "city": "Largo",
+        "slug": "largo-fl",
+        "state": "FL",
+        "content": "Serving Largo's diverse housing stock, Onyx Pest Control delivers effective pest solutions for this central Pinellas County community. Our team understands how the area's mix of older and newer homes creates different pest challenges in the humid Florida climate. We specialize in treating the common invaders of Largo properties.\n\nFrom termite inspections to mosquito control, we offer comprehensive services to keep Largo homes pest-free. Our treatments are designed to be effective yet gentle on the environment in this densely populated area.",
+        "localContext": "Largo's central location and varied housing types require adaptable pest control solutions.",
+        "nearbyAreas": [
+          "Clearwater",
+          "Seminole",
+          "Pinellas Park"
+        ]
+      },
+      {
+        "city": "Riverview",
+        "slug": "riverview-fl",
+        "state": "FL",
+        "content": "Onyx Pest Control protects Riverview's growing communities from Florida's persistent pests. Our services are tailored to the area's newer developments and expansive properties, addressing the specific pest pressures of this humid suburban environment. We specialize in treating the lawn and household pests common in Riverview.\n\nWith our comprehensive approach, we safeguard your home against invaders while being mindful of children, pets, and the local ecosystem. Our seasonal programs are particularly valuable in Riverview's climate where pests remain active year-round.",
+        "localContext": "Riverview's rapid growth and suburban character create unique pest control needs in southern Hillsborough County.",
+        "nearbyAreas": [
+          "Brandon",
+          "Lithia",
+          "Apollo Beach"
+        ]
+      },
+      {
+        "city": "Land O' Lakes",
+        "slug": "land-o-lakes-fl",
+        "state": "FL",
+        "content": "Onyx Pest Control provides specialized services for Land O' Lakes' mix of rural and suburban properties. Our team is experienced in treating the pest challenges of this area's lakefront homes and larger lots in the humid Florida climate. We offer solutions for both household pests and outdoor invaders.\n\nFrom mosquito control to termite protection, we address the full range of pest issues faced by Land O' Lakes residents. Our environmentally conscious treatments are particularly important in this area with its many natural water features.",
+        "localContext": "Land O' Lakes' numerous lakes and rural character require pest control that protects both homes and the natural environment.",
+        "nearbyAreas": [
+          "Wesley Chapel",
+          "Lutz",
+          "Odessa"
+        ]
+      },
+      {
+        "city": "Pinellas Park",
+        "slug": "pinellas-park-fl",
+        "state": "FL",
+        "content": "Onyx Pest Control serves Pinellas Park's diverse residential and commercial properties with effective pest management solutions. Our technicians understand the specific pest pressures of this centrally located community in the humid Tampa Bay area. We specialize in treating the common invaders of Pinellas Park homes and businesses.\n\nFrom comprehensive termite protection to seasonal mosquito control, we offer services tailored to the needs of this urban-suburban community. Our discreet commercial pest control helps local businesses maintain clean, pest-free environments.",
+        "localContext": "Pinellas Park's mix of residential and commercial areas creates varied pest control needs in this central Pinellas County location.",
+        "nearbyAreas": [
+          "Largo",
+          "St. Petersburg",
+          "Seminole"
+        ]
+      },
+      {
+        "city": "Valrico",
+        "slug": "valrico-fl",
+        "state": "FL",
+        "content": "Onyx Pest Control provides expert pest management for Valrico's family-oriented communities. Our services are designed for the area's suburban homes, addressing the pest challenges that come with Florida's humid climate and lush landscaping. We specialize in treating the common invaders of Valrico properties.\n\nWith our thorough inspections and targeted treatments, we protect homes against everything from ants to rodents. Our family-safe approach is particularly valued in Valrico's residential neighborhoods with many children and pets.",
+        "localContext": "Valrico's suburban character and family communities require pest control that's both effective and safe for all residents.",
+        "nearbyAreas": [
+          "Brandon",
+          "Lithia",
+          "Riverview"
+        ]
+      },
+      {
+        "city": "Lutz",
+        "slug": "lutz-fl",
+        "state": "FL",
+        "content": "Onyx Pest Control offers specialized services for Lutz's mix of rural and suburban properties. Our team is experienced in treating the pest challenges of this area's larger lots and wooded properties in the humid Florida climate. We provide solutions for both household pests and outdoor invaders.\n\nFrom termite protection to mosquito control, we address the full range of pest issues faced by Lutz residents. Our environmentally conscious treatments are particularly important in this area known for its natural beauty.",
+        "localContext": "Lutz's semi-rural character and larger properties create unique pest control needs in northern Hillsborough County.",
+        "nearbyAreas": [
+          "Wesley Chapel",
+          "Land O' Lakes",
+          "Odessa"
+        ]
+      },
+      {
+        "city": "Seminole",
+        "slug": "seminole-fl",
+        "state": "FL",
+        "content": "Onyx Pest Control provides comprehensive pest management for Seminole's coastal and inland properties. Our services are tailored to the area's mix of beachside condos and suburban homes, addressing the specific pest pressures of this humid Pinellas County community. We specialize in treating the salt-tolerant pests common in coastal areas.\n\nFrom preventative barrier treatments to targeted interior solutions, we protect Seminole homes against Florida's most persistent invaders. Our discreet service approach fits well with the community's upscale atmosphere.",
+        "localContext": "Seminole's coastal location and varied housing types require pest control that addresses both salt-air and urban pest challenges.",
+        "nearbyAreas": [
+          "Largo",
+          "Pinellas Park",
+          "Indian Rocks Beach"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "termite-control": "/images/service-termite-control.webp",
+      "rodent-exclusion": "/images/service-rodent-exclusion.webp",
+      "mosquito-misting": "/images/service-mosquito-misting.webp",
+      "bed-bug-treatment": "/images/service-bed-bug-treatment.webp",
+      "palmetto-bug-control": "/images/service-palmetto-bug-control.webp"
+    },
+    "servicesResponsive": {
+      "termite-control": {
+        "src": "/images/service-termite-control.webp",
+        "srcset": "/images/service-termite-control-400w.webp 400w, /images/service-termite-control-800w.webp 800w, /images/service-termite-control-1200w.webp 1200w, /images/service-termite-control.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "rodent-exclusion": {
+        "src": "/images/service-rodent-exclusion.webp",
+        "srcset": "/images/service-rodent-exclusion-400w.webp 400w, /images/service-rodent-exclusion-800w.webp 800w, /images/service-rodent-exclusion-1200w.webp 1200w, /images/service-rodent-exclusion.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "mosquito-misting": {
+        "src": "/images/service-mosquito-misting.webp",
+        "srcset": "/images/service-mosquito-misting-400w.webp 400w, /images/service-mosquito-misting-800w.webp 800w, /images/service-mosquito-misting-1200w.webp 1200w, /images/service-mosquito-misting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "bed-bug-treatment": {
+        "src": "/images/service-bed-bug-treatment.webp",
+        "srcset": "/images/service-bed-bug-treatment-400w.webp 400w, /images/service-bed-bug-treatment-800w.webp 800w, /images/service-bed-bug-treatment-1200w.webp 1200w, /images/service-bed-bug-treatment.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "palmetto-bug-control": {
+        "src": "/images/service-palmetto-bug-control.webp",
+        "srcset": "/images/service-palmetto-bug-control-400w.webp 400w, /images/service-palmetto-bug-control-800w.webp 800w, /images/service-palmetto-bug-control-1200w.webp 1200w, /images/service-palmetto-bug-control.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
